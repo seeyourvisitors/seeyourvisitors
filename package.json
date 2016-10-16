@@ -1,0 +1,31 @@
+{
+  "name": "seeyourvisitors",
+  "version": "1.0.0",
+  "description": "An open source library to get real-time analytics of how your visitors use your website",
+  "main": "gg.js",
+  "scripts": {
+    "build": "uglifyjs --mangle --compress --output gg.js -- gg.dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seeyourvisitors/seeyourvisitors.git"
+  },
+  "keywords": [
+    "analytics",
+    "clickmap",
+    "heatmap",
+    "in",
+    "page"
+  ],
+  "author": "Gary Roberts",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seeyourvisitors/seeyourvisitors/issues"
+  },
+  "homepage": "https://www.seeyourvisitors.com",
+  "devDependencies": {
+    "standard": "^8.4.0",
+    "uglifyjs": "^2.4.10"
+  }
+}
