@@ -1,6 +1,6 @@
 {
   "name": "seeyourvisitors",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An open source library to get real-time analytics of how your visitors use your website",
   "main": "gg.js",
   "scripts": {
