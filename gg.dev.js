@@ -3,7 +3,8 @@
   var account
   var firebaseConfig
   var timeLoad = new Date().getTime()
-  var path = document.location.host + document.location.pathname.split('/').join('_')
+  var regexReplace = /[\/\$#\[\]\.]/
+  var path = document.location.host.split(regexReplace).join('_') + document.location.pathname.split(regexReplace).join('_')
   var version = '1.0.1'
 
   var getDocumentDimensions = function () {
